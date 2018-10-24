@@ -1,0 +1,6 @@
+print('{} DESAFIO 24 {}'.format(('='*5), ('='*5)))
+cidade = str(input('Informe o nome da onde nasceu cidade: '))
+cidade = cidade.upper()
+cidadeInicio = cidade.split()
+print('O nome da cidade começa com "SANTO"?')
+print('SANTO' in cidadeInicio[0])
