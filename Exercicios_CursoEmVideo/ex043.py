@@ -12,4 +12,4 @@ elif imc > 30 and imc <= 40:
     result = str('com obesidade')
 else:
     result = str('com obesidade mórbida')
-print('Seu IMC é igual a {}, você está {}'.format(imc, result))
+print('Seu IMC é igual a {:.2f}, você está {}'.format(imc, result))
